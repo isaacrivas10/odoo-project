@@ -1,13 +1,16 @@
 # -*- coding: utf-8 -*-
 
-# from odoo import models, fields, api
+from odoo import models, fields, api
 
 
-# class open-academy(models.Model):
-#     _name = 'open-academy.open-academy'
-#     _description = 'open-academy.open-academy'
+class Course(models.Model):
+    _name = "course.course"
+    _description = "open-academy.open-academy"
 
-#     name = fields.Char()
+    title = fields.Char(required=True)
+    description = fields.Char()
+
+
 #     value = fields.Integer()
 #     value2 = fields.Float(compute="_value_pc", store=True)
 #     description = fields.Text()

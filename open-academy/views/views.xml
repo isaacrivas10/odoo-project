@@ -1,5 +1,15 @@
 <odoo>
-  <data>
+    <data>
+
+        <record model="course.course" id="course">
+            <field name="title">Susurros del corazon</field>
+        </record>
+
+    </data>
+</odoo>
+
+
+
     <!-- explicit list view definition -->
 <!--
     <record model="ir.ui.view" id="open-academy.list">
